@@ -1,0 +1,9 @@
+c:\users\tyler\documents\visual studio 2015\Projects\Eclipse System Analysis\Eclipse System Analysis\bin\Debug\Eclipse System Analysis.exe.config
+c:\users\tyler\documents\visual studio 2015\Projects\Eclipse System Analysis\Eclipse System Analysis\bin\Debug\Eclipse System Analysis.exe
+c:\users\tyler\documents\visual studio 2015\Projects\Eclipse System Analysis\Eclipse System Analysis\bin\Debug\Eclipse System Analysis.pdb
+c:\users\tyler\documents\visual studio 2015\Projects\Eclipse System Analysis\Eclipse System Analysis\obj\Debug\Eclipse System Analysis.csprojResolveAssemblyReference.cache
+c:\users\tyler\documents\visual studio 2015\Projects\Eclipse System Analysis\Eclipse System Analysis\obj\Debug\Eclipse_System_Analysis.Form1.resources
+c:\users\tyler\documents\visual studio 2015\Projects\Eclipse System Analysis\Eclipse System Analysis\obj\Debug\Eclipse_System_Analysis.Properties.Resources.resources
+c:\users\tyler\documents\visual studio 2015\Projects\Eclipse System Analysis\Eclipse System Analysis\obj\Debug\Eclipse System Analysis.csproj.GenerateResource.Cache
+c:\users\tyler\documents\visual studio 2015\Projects\Eclipse System Analysis\Eclipse System Analysis\obj\Debug\Eclipse System Analysis.exe
+c:\users\tyler\documents\visual studio 2015\Projects\Eclipse System Analysis\Eclipse System Analysis\obj\Debug\Eclipse System Analysis.pdb
