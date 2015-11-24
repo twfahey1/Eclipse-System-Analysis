@@ -21,9 +21,8 @@ namespace Eclipse_System_Analysis
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            //Call our object to initialize the user ini list, and the backup folder items...
             startupProcedure();
-
-
         }
 
         private void startupProcedure()
@@ -41,16 +40,19 @@ namespace Eclipse_System_Analysis
                     backupFolderList.Items.Add(recovUserPath);
                 }
             }
-
-
-
         }
 
         private void userListBox_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+            //First clear job files list
+            jobFilesList.Items.Clear();
+            //This call will build job info list from the selected ini file, and then we can access that data and display it
+            //in the jobFiles list...
+            eclipseInfoGen.BUILD_JOB_INFO_LIST(eclipseInfoGen.CURRENT_LOADED_INI_ECL_OBJS[userListBox.SelectedIndex].INI_JOB_PATH);
+            foreach (string filePath in eclipseInfoGen.JOB_INFO_LIST)
+            {
+                jobFilesList.Items.Add(filePath);
+            }
         }
     }
-
-    
 }

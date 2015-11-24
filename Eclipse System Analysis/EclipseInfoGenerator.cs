@@ -251,6 +251,9 @@ namespace Eclipse_System_Analysis
         
         //When job folder paths are passed through here, they can be accessed from the "JOB_OBJECT_REFERENCE" of this object.
 
+        //We will have a JOB INFO LIST object each time is cleared when we call this and provide us with
+        //the job information of Full name and the jobInfo is the FileInfo for this. We can make 
+        //EclipseObjects somehow with this...
         public void BUILD_JOB_INFO_LIST(string userJobFolder)
         {
             JOB_INFO_LIST = new List<string>();
@@ -292,10 +295,7 @@ namespace Eclipse_System_Analysis
 
             }
         }
-
-
     }
-
 }
 
 
